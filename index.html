@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Slider</title>
+    <link rel="stylesheet" href="styles/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="flex items-center my-5 justify-center flex-col font-custom gap-4 bg-[url('/img/pattern-bg.svg')] bg-no-repeat bg-[center_top_1rem] bg-contain lg:flex-row-reverse lg:h-screen lg:my-0 lg:bg-right-top">
+  <div class="flex items-center justify-center flex-col p-7 pb-0">
+    <div class="lg:w-full">
+      <img class=" shadow-2xl lg:w-11/12" id="passport" src="Img/image-tanya.jpg" alt="image-tanya">
+    </div>
+    <div class="flex flex-row gap-10 bg-white py-4 px-5 rounded-full relative bottom-5 lg:right-36">
+      <button id="prev"><img src="/Img/icon-prev.svg" alt="icon-prev"></button>
+      <button id="next"><img src="/Img/icon-next.svg" alt="icon-next"></button>
+    </div>
+  </div>
+  <div class="flex flex-col text-center pt-7 px-4 bg-[url('/img/pattern-quotes.svg')] bg-no-repeat bg-[center_top_-1rem] bg-auto lg:w-2/4 lg:px-20 lg:text-left lg:gap-8">
+    <div>
+      <p id="content" class="text-custom-darkBlue text-xl font-light lg:text-2xl">
+        "I've been interested in coding for a while but never taken the jump, until now. 
+        I couldn't recommend this course enough. I'm now in the job of my dreams and so 
+        excited about the future."
+      </p>
+    </div>
+    <div class="flex items-center justify-center flex-col lg:flex-row lg:gap-2 lg:justify-start">
+      <p id="title" class="text-custom-darkBlue text-lg font-bold">Tanya Sinclair</p>
+      <p id="jobTitle" class="font-medium text-lg text-custom-grayishBlue">UX Engineer</p>
+    </div>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  <div class="flex flex-col md:items-center md:justify-center md:flex-row-reverse bg-red-800 flex-1 md:h-max">
+    <div class="flex items-center justify-center">
+      <img id="passport" class="rounded-xl w-80 md:w-full" src="/Img/image-tanya.jpg" alt="image-tanya">
+    </div>
+    <div class="flex items-center justify-center flex-row rounded-3xl bg-white w-28 relative bottom-7 left-32 p-4 gap-10 md:hidden">
+      <button id="prev"><img src="/Img/icon-prev.svg" alt="icon-prev"></button>
+      <button id="next"><img src="/Img/icon-next.svg" alt="icon-next"></button>
+    </div>
+    <div class="flex items-center justify-center flex-col text-center md:text-left gap-3 bg-purple-800" >
+      <p id="content" class="text-2xl/[2rem] font-light text-custom-darkBlue md:text-3xl md:w-96">"I've been interested in coding for a while but never taken the jump, until now. 
+        I couldn't recommend this course enough. I'm now in the job of my dreams and so 
+        excited about the future."
+      </p>
+      <p id="title" class="w-36 text-xl/[1.7rem] font-black text-custom-darkBlue md:text-left">Tanya Sinclair<span id="jobTitle" class="text-custom-grayishBlue font-medium"> UX Engineer</span></p>
+    </div>
+  </div>-->
